@@ -238,43 +238,44 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 	<!-- //breadcrumbs -->
-
 <!-- single -->
 	<div class="single">
 		<div class="container">
 			<div class="col-md-4 single-left">
-				<div class="flexslider">
-					<ul class="slides">
-						<li data-thumb="images/a.jpg">
-							<div class="thumb-image"> <img src="images/a.jpg" data-imagezoom="true" class="img-responsive"> </div>
-						</li>
-						<li data-thumb="images/b.jpg">
-							 <div class="thumb-image"> <img src="images/b.jpg" data-imagezoom="true" class="img-responsive"> </div>
-						</li>
-						<li data-thumb="images/c.jpg">
-						   <div class="thumb-image"> <img src="images/c.jpg" data-imagezoom="true" class="img-responsive"> </div>
-						</li> 
-					</ul>
-				</div>
+				<li data-thumb="images/20.jpg">
+					<div class="thumb-image"> <img src="images/20.jpg" data-imagezoom="true" class="img-responsive"> </div>
+				</li>
 				<!-- flixslider -->
-					<script defer src="js/jquery.flexslider.js"></script>
-					<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-					<script>
+				<script defer src="js/jquery.flexslider.js"></script>
+				<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+				<script>
 					// Can also be used with $(document).ready()
 					$(window).load(function() {
-					  $('.flexslider').flexslider({
-						animation: "slide",
-						controlNav: "thumbnails"
-					  });
+						$('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						});
 					});
-					</script>
+				</script>
 				<!-- flixslider -->
 				<!-- zooming-effect -->
-					<script src="js/imagezoom.js"></script>
+				<script src="js/imagezoom.js"></script>
 				<!-- //zooming-effect -->
 			</div>
 			<div class="col-md-8 single-right">
-				<h3>Swan Miami Red Skirt</h3>
+				<h3>Cabeca de Pote</h3>
+				<h5 style="margin-top: -20px;"><a href="redwine.html">Red Wine</a></h5>
+				<div class="color-quality" style="margin-bottom: 20px; margin-top: 2px;">
+						<div class="color-quality-left">
+							<h5>Sold : 999</h5>
+							
+						</div>
+						<div class="color-quality-right" style="margin-left: 20px;">
+							<h5>Viewed : 1.000</h5>
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
 				<div class="rating1">
 					<span class="starRating">
 						<input id="rating5" type="radio" name="rating" value="5">
@@ -289,79 +290,47 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<label for="rating1">1</label>
 					</span>
 				</div>
-					<div class="description">
-						<h5><i>Description</i></h5>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-							eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-							odit aut fugit, sed quia consequuntur magni dolores eos qui 
-							ratione voluptatem sequi nesciunt.</p>
-					</div>
-					<div class="color-quality">
-						<div class="color-quality-left">
-							<h5>Color : </h5>
-							<ul>
-								<li><a href="#"><span></span>Red</a></li>
-								<li><a href="#" class="brown"><span></span>Yellow</a></li>
-								<li><a href="#" class="purple"><span></span>Purple</a></li>
-								<li><a href="#" class="gray"><span></span>Violet</a></li>
-							</ul>
-						</div>
-						<div class="color-quality-right">
-							<h5>Quality :</h5>
-							 <div class="quantity"> 
-								<div class="quantity-select">                           
-									<div class="entry value-minus1">&nbsp;</div>
-									<div class="entry value1"><span>1</span></div>
-									<div class="entry value-plus1 active">&nbsp;</div>
-								</div>
+				
+				<div class="description">
+					<h5><i>Description</i></h5>
+					<p>Rượu nho nguyên chất Mỹ với hương vị ngọt thanh, dịu nhẹ, nồng nàn. Rượu nho này chưa hẳn là rượu mà là nho lên men tự nhiên, loại thức uống này được ủ trong thời gian ngắn nên người uống thưởng thức như những loại nước trái cây khác. Chất lượng của loại rượu này đã làm nên thương hiệu cho nhãn rượu nho nổi tiếng nhất thế giới.</p>						
+				</div>
+				<div class="color-quality">
+					<div class="color-quality-left">
+						<h5>Quality :</h5>
+						<div class="quantity"> 
+							<div class="quantity-select">                           
+								<div class="entry value-minus1">&nbsp;</div>
+								<div class="entry value1"><span>1</span></div>
+								<div class="entry value-plus1 active">&nbsp;</div>
 							</div>
-							<!--quantity-->
-									<script>
-									$('.value-plus1').on('click', function(){
-										var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)+1;
-										divUpd.text(newVal);
-									});
+						</div>
+						<!--quantity-->
+						<script>
+							$('.value-plus1').on('click', function(){
+								var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)+1;
+								divUpd.text(newVal);
+							});
 
-									$('.value-minus1').on('click', function(){
-										var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)-1;
-										if(newVal>=1) divUpd.text(newVal);
-									});
-									</script>
-								<!--quantity-->
+							$('.value-minus1').on('click', function(){
+								var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)-1;
+								if(newVal>=1) divUpd.text(newVal);
+							});
+						</script>
+						<!--quantity-->
 
-						</div>
-						<div class="clearfix"> </div>
 					</div>
-					<div class="occasional">
-						<h5>Occasion :</h5>
-						<div class="colr ert">
-							<div class="check">
-								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Occasion Wear</label>
-							</div>
-						</div>
-						<div class="colr">
-							<div class="check">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Party Wear</label>
-							</div>
-						</div>
-						<div class="colr">
-							<div class="check">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Formal Wear</label>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="simpleCart_shelfItem">
-							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Add to cart</a></p>
-						</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="simpleCart_shelfItem">
+					<p><span>$320</span> <i class="item_price">$250</i></p>
+					<p><a class="item_add" href="#">Add to cart</a></p>
+				</div>
 
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-
 	<div class="additional_info">
 		<div class="container">
 			<div class="sap_tabs">	
