@@ -66,7 +66,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 									<div class="facts">
 										<div class="register">
-											<form action="#" method="post">			
+											<form action="user_index.html" method="post">			
 												<input name="Email" placeholder="Email Address" type="text" required="">						
 												<input name="Password" placeholder="Password" type="password" required="">										
 												<div class="sign-up">
@@ -80,7 +80,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
 									<div class="facts">
 										<div class="register">
-											<form action="#" method="post">			
+											<form action="user_index.html" method="post">			
 												<input placeholder="Name" name="Name" type="text" required="">
 												<input placeholder="Email Address" name="Email" type="email" required="">	
 												<input placeholder="Password" name="Password" type="password" required="">	
@@ -115,10 +115,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<div class="col-md-12">
 								<ul class="social">
-									<li class="social_facebook"><a href="#" class="entypo-facebook"></a></li>
-									<li class="social_dribbble"><a href="#" class="entypo-dribbble"></a></li>
-									<li class="social_twitter"><a href="#" class="entypo-twitter"></a></li>
-									<li class="social_behance"><a href="#" class="entypo-behance"></a></li>
+									<li class="social_facebook"><a href="user_index.html" class="entypo-facebook"></a></li>
+									<li class="social_dribbble"><a href="user_index.html" class="entypo-dribbble"></a></li>
+									<li class="social_twitter"><a href="user_index.html" class="entypo-twitter"></a></li>
+									<li class="social_behance"><a href="user_index.html" class="entypo-behance"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -131,10 +131,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div class="header">
 	<div class="container">
 		<div class="w3l_login">
-			<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+			<a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 		</div>
 		<div class="w3l_logo">
-			<h1><a href="index.html">Luxury Wine<span>For Wine Lovers</span></a></h1>
+			<h1><a href="user_index.html">Luxury Wine<span>For Wine Lovers</span></a></h1>
 		</div>
 		<div class="search">
 			<input class="search_box" type="checkbox" id="search_box">
@@ -146,17 +146,28 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</form>
 			</div>
 		</div>
-		<div class="cart box_1">
-			<a href="checkout.html">
-				<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+		<div class="box_1">
+				<ul class="nav">
+					<li class="dropdown" style="margin-right: -20px;margin-bottom: -12px;">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Kiệt Nguyễn <span class="glyphicon glyphicon-user" style="margin-left: 5px"></span></a>
+						<ul class="dropdown-menu" style="margin-left: 200px;">
+							<li><a href="#">My Account <span class="glyphicon glyphicon-cog pull-right"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="#">History <span class="glyphicon glyphicon-time pull-right"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="#">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="user_index.html">
+					<div class="total">
+						$0.00 (0 items)
+					</div>
 					<img src="images/bag.png" alt="" />
 				</a>
 				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 				<div class="clearfix"> </div>
-			</div>	
-			<div class="clearfix"> </div>
-		</div>
+			</div>
 	</div>
 	<div class="navigation">
 		<div class="container">
@@ -365,7 +376,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 								<div class="dresses_grid_pos">
 									<h6>New</h6>
@@ -395,7 +406,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -422,7 +433,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -452,7 +463,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -479,7 +490,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -506,7 +517,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 								<div class="dresses_grid_pos">
 									<h6>New</h6>
@@ -539,7 +550,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 								<div class="dresses_grid_pos">
 									<h6>New</h6>
@@ -569,7 +580,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -596,7 +607,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<p> Ngày 28/04/2018</p>
 								<div class="simpleCart_shelfItem">
 									<p><span>$320</span> <i class="item_price">$250</i></p>
-									<p><a class="item_add" href="#">Add to cart</a></p>
+									<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 								</div>
 							</div>
 						</div>
@@ -637,7 +648,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</div>
 											<div class="modal_body_right_cart simpleCart_shelfItem">
 												<p><span>$320</span> <i class="item_price">$250</i></p>
-												<p><a class="item_add" href="#">Add to cart</a></p>
+												<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88" data-dismiss="modal">Add to cart</a></p>
 											</div>
 										</div>
 										<div class="clearfix"> </div>
@@ -686,7 +697,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$320</span> <i class="item_price">$250</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 						<div class="clearfix"> </div>
@@ -721,7 +732,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -747,7 +758,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -773,7 +784,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -799,7 +810,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -860,7 +871,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -886,7 +897,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -912,7 +923,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
@@ -938,7 +949,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<h5><a href="single.html">Cabeca de Peto (Xem chi tiết)</a></h5>
 							<div class="simpleCart_shelfItem">
 								<p class="flexisel_ecommerce_cart"><span>$312</span> <i class="item_price">$212</i></p>
-								<p><a class="item_add" href="#">Add to cart</a></p>
+								<p><a class="item_add" href="#" data-toggle="modal" data-target="#myModal88">Add to cart</a></p>
 							</div>
 						</div>
 					</div>
